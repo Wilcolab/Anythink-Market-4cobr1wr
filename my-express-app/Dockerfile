@@ -1,7 +1,7 @@
 FROM node:14
 
 # Set the working directory
-WORKDIR /usr/src/app
+WORKDIR /app
 
 # Copy package.json and yarn.lock
 COPY package.json yarn.lock ./
