@@ -19,4 +19,4 @@ def add_task(task: Task):
 
 @app.get("/tasks")
 def get_tasks():
-    return {"tasks": tasks}
+    return {"tasks": tasks} 
